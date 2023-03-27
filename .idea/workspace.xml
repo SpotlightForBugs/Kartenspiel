@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die .gitignore-Datei">
       <change beforePath="$PROJECT_DIR$/.github/workflows/javadoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679940484698</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="veränderte die .gitignore-Datei">
+      <created>1679941173428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679941173428</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
