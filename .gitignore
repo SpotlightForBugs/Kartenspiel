@@ -39,6 +39,6 @@ build/
 
 
 ### Maven ###
-target/
+
 # allow the JavaDoc to be added to the repo inside target/site/apidocs
 !target/site/apidocs

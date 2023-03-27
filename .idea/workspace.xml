@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="github things">
+    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die .gitignore-Datei">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/javadoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +77,7 @@
       <workItem from="1679922307425" duration="2942000" />
       <workItem from="1679927126076" duration="1435000" />
       <workItem from="1679929264636" duration="500000" />
-      <workItem from="1679933022192" duration="4380000" />
+      <workItem from="1679933022192" duration="4746000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1679925237404</created>
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679939541613</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="veränderte die .gitignore-Datei">
+      <created>1679940484697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679940484698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +168,8 @@
     <MESSAGE value="Dokumentation" />
     <MESSAGE value="small additions" />
     <MESSAGE value="github things" />
-    <option name="LAST_COMMIT_MESSAGE" value="github things" />
+    <MESSAGE value="veränderte die .gitignore-Datei" />
+    <option name="LAST_COMMIT_MESSAGE" value="veränderte die .gitignore-Datei" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
