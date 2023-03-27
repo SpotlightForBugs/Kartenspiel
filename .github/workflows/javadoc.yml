@@ -3,7 +3,7 @@ name: JavaDoc
 on:
   push:
     branches:
-      - Pro
+      - pro
 
 jobs:
   build:
