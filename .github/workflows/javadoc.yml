@@ -31,3 +31,4 @@ jobs:
           message: 'Add JavaDoc'
           add: 'target/site/apidocs'
           branch: 'Pro'
+          tag_push: '--force'
