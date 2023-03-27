@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="Dokumentation">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
+    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="small additions">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/javadoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <workItem from="1679922307425" duration="2942000" />
       <workItem from="1679927126076" duration="1435000" />
       <workItem from="1679929264636" duration="500000" />
-      <workItem from="1679933022192" duration="1483000" />
+      <workItem from="1679933022192" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1679925237404</created>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679934079709</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="small additions">
+      <created>1679934546758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679934546758</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +137,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Weiteres" />
     <MESSAGE value="Dokumentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dokumentation" />
+    <MESSAGE value="small additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="small additions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
