@@ -1,35 +1,25 @@
-name: JavaDoc
+name: 'Publish JavaDoc'
 
 on:
   push:
-    branches:
-      - pro
+    paths: [ '**.java']
+  
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Setup Java
-        uses: actions/setup-java@v2
-        with:
-          java-version: '18'
-          distribution: 'adopt'
-
-      - name: Build with Maven
-        run: mvn clean package
-
-      - name: Generate JavaDoc
-        run: mvn javadoc:javadoc
-
-      - name: Push JavaDoc to Dokumentation folder
-        run: |
-          git checkout pro
-          git add -f target/site/apidocs/*
-          git commit -m "Add JavaDoc"
-          git push origin pro
-        working-directory: ${{ github.workspace }}
-
+     - name: Publish JavaDoc
+       uses: ren130302/publish-javadoc@test
