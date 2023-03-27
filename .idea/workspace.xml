@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die .gitignore-Datei">
+    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die javadoc.yml-Datei">
       <change beforePath="$PROJECT_DIR$/.github/workflows/javadoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +167,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
