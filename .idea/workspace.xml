@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die javadoc.yml-Datei">
       <change beforePath="$PROJECT_DIR$/.github/workflows/javadoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679941173428</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="veränderte die javadoc.yml-Datei">
+      <created>1679943343149</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679943343149</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +192,8 @@
     <MESSAGE value="small additions" />
     <MESSAGE value="github things" />
     <MESSAGE value="veränderte die .gitignore-Datei" />
-    <option name="LAST_COMMIT_MESSAGE" value="veränderte die .gitignore-Datei" />
+    <MESSAGE value="veränderte die javadoc.yml-Datei" />
+    <option name="LAST_COMMIT_MESSAGE" value="veränderte die javadoc.yml-Datei" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

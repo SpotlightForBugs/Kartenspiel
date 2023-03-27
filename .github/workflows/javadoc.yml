@@ -27,24 +27,5 @@ jobs:
 
       - name: Push JavaDoc to Dokumentation folder
 
-        # force add the target/site/apidocs folder using shell commands
-        #DO NOT COMMIT HERE
-        run: git config --global user.email "actions@github.com" && git config --global user.name "GitHub Actions" && git add target/site/apidocs --force
 
-
-      - uses: actions/checkout@v3
-        with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of the personal access token.
-          fetch-depth: 0  # otherwise, there would be errors pushing refs to the destination repository.
-      - uses: GuillaumeFalourd/git-commit-push@v1.3
-        with:
-          email: ${{ github.actor }}@users.noreply.github.com
-          name: ${{ github.actor }}
-          commit_message: "Update JavaDoc"
-          target_branch: pro
-          files: 'target/site/apidocs'
-          remote_repository: https://github.com/SpotlightforBugs/Kartenspiel.git
-          access_token: ${{ github.token }}
-          force: true
-          empty: true
-          tags: true
+        run: git config --global user.email "actions@github.com" && git config --global user.name "GitHub Actions" && git add target/site/apidocs --force && git commit -m "Update JavaDoc" && git push --force
