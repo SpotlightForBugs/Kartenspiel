@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"eu.spotlightforbugs","l":"Karte"},{"p":"eu.spotlightforbugs","l":"Kartenspiel"},{"p":"eu.spotlightforbugs","l":"Main"}];updateSearchResults();
