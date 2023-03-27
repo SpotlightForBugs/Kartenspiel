@@ -1,0 +1,32 @@
+name: JavaDoc
+
+on:
+  push:
+    branches:
+      - Pro
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Build with Maven
+        run: mvn clean package
+
+      - name: Generate JavaDoc
+        run: mvn javadoc:javadoc
+
+      - name: Push JavaDoc to Dokumentation folder
+        uses: EndBug/add-and-commit@v7.0.0
+        with:
+          message: 'Add JavaDoc'
+          add: 'target/site/apidocs/**'
+          branch: 'Pro'
