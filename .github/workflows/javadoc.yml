@@ -29,6 +29,6 @@ jobs:
         uses: EndBug/add-and-commit@v7.0.0
         with:
           message: 'Add JavaDoc'
-          add: 'target/site/apidocs'
+          add: 'target/site/apidocs --force'
           branch: 'Pro'
           tag_push: '--force'
