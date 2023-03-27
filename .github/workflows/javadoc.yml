@@ -23,7 +23,7 @@ jobs:
         run: mvn clean package
 
       - name: Generate JavaDoc
-        run: mvn javadoc:javadoc && cd target && ls -la
+        run: mvn javadoc:javadoc && cd target/site && ls -la
 
       - name: Push JavaDoc to Dokumentation folder
         uses: EndBug/add-and-commit@v7.0.0
