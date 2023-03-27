@@ -34,4 +34,33 @@ public class Kartenspiel {
             Kartendeck[zufallszahl2] = temp;
         }
     }
+    /**
+     * Prüft, ob sich eine Karte mit der gesuchten Farbe und dem gesuchten Bild im Kartendeck befindet.
+     * @param pFarbe Die gesuchte Farbe.
+     * @param pBild Das gesuchte Bild.
+     * @return true, wenn die Karte im Kartendeck vorhanden ist, sonst false.
+     */
+    boolean vorhanden(String pFarbe, String pBild)
+    {
+        for (int i = 0; i < Kartendeck.length; i++) {
+            if (Kartendeck[i].gibFarbe().equals(pFarbe) && Kartendeck[i].gibBild().equals(pBild)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Entnimmt alle Karten der Farbe pFarbe aus dem Kartendeck.
+     * @param pFarbe Die Farbe, der die Karten entnommen werden sollen.
+     */
+    public void aussortieren(String pFarbe){
+        for (int i = 0; i < Kartendeck.length; i++) {
+            if (Kartendeck[i].gibFarbe().equals(pFarbe)) {
+                Kartendeck[i] = null;
+            }
+        }
+    }
+
+
 }

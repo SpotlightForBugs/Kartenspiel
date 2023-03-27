@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="Weiteres">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3c.MD" beforeDir="false" afterPath="$PROJECT_DIR$/3c.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Karte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Karte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679922303974</updated>
       <workItem from="1679922307425" duration="2942000" />
-      <workItem from="1679927126076" duration="690000" />
+      <workItem from="1679927126076" duration="1435000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1679925237404</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679927155213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Weiteres">
+      <created>1679927844311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679927844311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Weiteres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weiteres" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
