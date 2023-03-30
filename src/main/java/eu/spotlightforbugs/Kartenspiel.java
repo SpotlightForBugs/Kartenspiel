@@ -42,8 +42,8 @@ public class Kartenspiel {
      */
     boolean vorhanden(String pFarbe, String pBild)
     {
-        for (int i = 0; i < Kartendeck.length; i++) {
-            if (Kartendeck[i].gibFarbe().equals(pFarbe) && Kartendeck[i].gibBild().equals(pBild)) {
+        for (Karte karte : Kartendeck) {
+            if (karte.gibFarbe().equals(pFarbe) && karte.gibBild().equals(pBild)) {
                 return true;
             }
         }
@@ -60,6 +60,23 @@ public class Kartenspiel {
                 Kartendeck[i] = null;
             }
         }
+    }
+
+    /**
+     * Gibt die Karten zurück.
+     * @param output bestimmt, ob ein output in der Konsole erfolgen soll.
+     * @return
+     */
+    public String kartenAusgeben(boolean output){
+        StringBuilder liste = new StringBuilder();
+        for (int i =0; i < Kartendeck.length; i++){
+           if(output) {
+               System.out.println(Kartendeck[i].gibFarbe() + " " + Kartendeck[i].gibBild());
+           }
+            liste.append(Kartendeck[i].gibFarbe()).append(" ").append(Kartendeck[i].gibBild()).append("\n");
+
+        } return liste.toString();
+
     }
 
 
