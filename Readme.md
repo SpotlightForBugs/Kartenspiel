@@ -56,7 +56,7 @@ Die Methode entnimmt alle Karten der Farbe pFarbe aus dem Kartendeck
 
 ### Visualisierung:
 Das herausnehmen der Karten der Farbe pFarbe aus dem Kartendeck.
-<img src="https://user-images.githubusercontent.com/73603712/228785696-5b39c3a7-914c-4992-a476-068ccde992ab.jpeg" width="50%" />
+<img src="https://user-images.githubusercontent.com/73603712/228785696-5b39c3a7-914c-4992-a476-068ccde992ab.jpeg" with="50%" />
 
 
 ### Teilprobleme:
@@ -102,7 +102,7 @@ boolean mehrRoteAlsSchwarzeKarten()
 Es soll ermittelt werden, ob sich in der ersten Hälfte des Kartendecks mehr rote als schwarze Karten befinden.
 
 ### Visualisierung:
-![image](https://user-images.githubusercontent.com/73603712/228787257-cbe5ca4b-57b0-4bca-9816-b159f30dc1e0.jpeg)
+<img src="https://user-images.githubusercontent.com/73603712/228787257-cbe5ca4b-57b0-4bca-9816-b159f30dc1e0.jpeg" width="50%"/>
 
 
 ### Teilprobleme:
