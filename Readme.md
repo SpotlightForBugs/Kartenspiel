@@ -56,7 +56,7 @@ Die Methode entnimmt alle Karten der Farbe pFarbe aus dem Kartendeck
 
 ### Visualisierung:
 Das herausnehmen der Karten der Farbe pFarbe aus dem Kartendeck.
-<img src="https://user-images.githubusercontent.com/73603712/228785696-5b39c3a7-914c-4992-a476-068ccde992ab.jpeg" with="50%" />
+<img src="https://user-images.githubusercontent.com/73603712/228785696-5b39c3a7-914c-4992-a476-068ccde992ab.jpeg" width="50%" />
 
 
 ### Teilprobleme:
