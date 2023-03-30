@@ -102,7 +102,8 @@ boolean mehrRoteAlsSchwarzeKarten()
 Es soll ermittelt werden, ob sich in der ersten Hälfte des Kartendecks mehr rote als schwarze Karten befinden.
 
 ### Visualisierung:
-BILD FEHLT
+![image](https://user-images.githubusercontent.com/73603712/228787257-cbe5ca4b-57b0-4bca-9816-b159f30dc1e0.jpeg)
+
 
 ### Teilprobleme:
   * Durchlaufen der ersten Hälfte des Kartendecks
