@@ -52,8 +52,12 @@ void aussortieren(String pFarbe)
 ### Anforderung:
 Die Methode entnimmt alle Karten der Farbe pFarbe aus dem Kartendeck
 
+
+
 ### Visualisierung:
-Das herausnehmen der Karten der Farbe pFarbe aus dem Kartendeck. --> BILD FEHLT
+Das herausnehmen der Karten der Farbe pFarbe aus dem Kartendeck.
+![image](https://user-images.githubusercontent.com/73603712/228785696-5b39c3a7-914c-4992-a476-068ccde992ab.jpeg)
+
 
 ### Teilprobleme:
   * Durchlaufen des Kartendecks
