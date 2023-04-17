@@ -1,5 +1,9 @@
 package eu.spotlightforbugs;
 
+/**
+ * Ein Kartenspiel mit 32 Karten.
+ * Die Karten werden in einem Array gespeichert. (Kartendeck)
+ */
 public class Kartenspiel {
     private Karte[] Kartendeck;
     /**
@@ -67,6 +71,12 @@ public class Kartenspiel {
      * Gibt die Karten zurück.
      * @param output bestimmt, ob ein output in der Konsole erfolgen soll.
      * @return
+     */
+
+    /**
+     * Gibt die Karten zurück.
+     * @param output bestimmt, ob ein output in der Konsole erfolgen soll.
+     * @return liste als String.
      */
     public String kartenAusgeben(boolean output){
         StringBuilder liste = new StringBuilder();

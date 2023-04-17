@@ -1,5 +1,11 @@
 package eu.spotlightforbugs;
 
+/**
+ * Eine Karte eines Kartenspiels.
+ * Eine Karte hat eine Farbe und ein Bild.
+ * Die Farbe und das Bild sind Strings.
+ * Die Farbe kann "Kreuz", "Pik", "Herz" oder "Karo" sein.
+ */
 public class Karte {
     private String farbe;
     private String bild;

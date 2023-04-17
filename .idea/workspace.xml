@@ -4,32 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die javadoc.yml-Datei">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/allclasses-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/copy.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Karte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Karte.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Kartenspiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Kartenspiel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/class-use/Karte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/class-use/Karte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/class-use/Kartenspiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/class-use/Kartenspiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/class-use/Main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/help-doc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/jquery-ui.overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/jquery-ui.overrides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/legal/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/member-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dokumentation/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Karte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Karte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679943512572</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added QuickSort">
+      <created>1681738594442</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681738594442</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +229,8 @@
     <MESSAGE value="github things" />
     <MESSAGE value="veränderte die .gitignore-Datei" />
     <MESSAGE value="veränderte die javadoc.yml-Datei" />
-    <option name="LAST_COMMIT_MESSAGE" value="veränderte die javadoc.yml-Datei" />
+    <MESSAGE value="Added QuickSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added QuickSort" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
