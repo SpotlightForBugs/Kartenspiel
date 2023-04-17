@@ -135,3 +135,70 @@ public boolean mehrRoteAlsSchwarzeKarten(){
     return anzahlRote > anzahlSchwarze;
 }
 ```
+
+## iv)
+```java
+quickSort(int pLinks, int pRechts,boolean output)
+```
+
+### Anforderung:
+Die Methode sortiert das Kartendeck mit dem QuickSort-Algorithmus.
+
+### Visualisierung:
+Ein Bild hier:
+
+<img src="https://programmingwiki.de/images/4/46/QuickSort-Beispiel1.gif" width="100%"/>
+
+
+### Teilprobleme:
+  * Sortieren des Kartendecks mit dem QuickSort-Algorithmus:
+    * Auswahl eines Pivot-Elements
+    * Aufteilen des Kartendecks in zwei Teile
+    * Sortieren der beiden Teile (rekursiv)
+    * Zusammenfügen der beiden Teile
+    * Ausgabe des Kartendecks, wenn output true ist
+    * Rückgabe des Kartendecks 
+
+### Implementation:
+```java
+ /**
+     * Führt einen QuickSort auf dem Kartendeck durch.
+     * @param links Der linke Index des Kartendecks.
+     * @param rechts Der rechte Index des Kartendecks.
+     * @param output bestimmt, ob ein output in der Konsole erfolgen soll.
+     * @return temp Das Kartendeck.
+     * @see <a href="https://www.baeldung.com/java-quicksort">Quicksort</a>
+     */
+    public Karte[] quickSort(int links, int rechts, boolean output) {
+        Karte[] temp = Kartendeck;
+        int i = links;
+        int j = rechts;
+        int pivot = (links + rechts) / 2;
+        while (i <= j) {
+            while (temp[i].gibFarbe().compareTo(temp[pivot].gibFarbe()) < 0) {
+                i++;
+            }
+            while (temp[j].gibFarbe().compareTo(temp[pivot].gibFarbe()) > 0) {
+                j--;
+            }
+            if (i <= j) {
+                Karte tempKarte = temp[i];
+                temp[i] = temp[j];
+                temp[j] = tempKarte;
+                i++;
+                j--;
+            }
+        }
+        if (links < j) {
+            quickSort(links, j, output);
+        }
+        if (i < rechts) {
+            quickSort(i, rechts, output);
+        }
+        if (output) {
+            kartenAusgeben(true);
+        }
+        return temp;
+    }
+```
+

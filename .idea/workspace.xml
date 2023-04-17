@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="veränderte die javadoc.yml-Datei">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/javadoc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/javadoc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Karte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Karte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Kartenspiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Kartenspiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/eu/spotlightforbugs/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/jquery-ui.overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/jquery-ui.overrides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/legal/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentation/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,11 +55,6 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2NbAFKMxQXPEospa5GcD8WrZ3OB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,25 +62,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jojon/OneDrive - Bischöfliches Pius-Gymnasium - Aachen/Desktop/shelf_repo/Kartenspiel&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "pro",
+    "last_opened_file_path": "C:/Users/jojon/OneDrive - Bischöfliches Pius-Gymnasium - Aachen/Desktop/shelf_repo/Kartenspiel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jojon\OneDrive - Bischöfliches Pius-Gymnasium - Aachen\Desktop\shelf_repo\Kartenspiel" />

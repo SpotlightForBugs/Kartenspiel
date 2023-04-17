@@ -4,6 +4,7 @@ public class Kartenspiel {
     private Karte[] Kartendeck;
     /**
      * Erzeugt ein neues Kartenspiel mit 32 Karten.
+     * Die Karten werden in einem Array gespeichert. (Kartendeck)
      */
     public Kartenspiel() {
         // erzeugen eines Karten-Arrays mit den 32 Skat-Karten
@@ -69,15 +70,58 @@ public class Kartenspiel {
      */
     public String kartenAusgeben(boolean output){
         StringBuilder liste = new StringBuilder();
-        for (int i =0; i < Kartendeck.length; i++){
-           if(output) {
-               System.out.println(Kartendeck[i].gibFarbe() + " " + Kartendeck[i].gibBild());
-           }
-            liste.append(Kartendeck[i].gibFarbe()).append(" ").append(Kartendeck[i].gibBild()).append("\n");
+        for (Karte karte : Kartendeck) {
+            if (output) {
+                System.out.println(karte.gibFarbe() + " " + karte.gibBild());
+            }
+            liste.append(karte.gibFarbe()).append(" ").append(karte.gibBild()).append("\n");
 
-        } return liste.toString();
+        }
+        return liste.toString();
 
     }
+
+    /**
+     * Führt einen QuickSort auf dem Kartendeck durch.
+     * @param links Der linke Index des Kartendecks.
+     * @param rechts Der rechte Index des Kartendecks.
+     * @param output bestimmt, ob ein output in der Konsole erfolgen soll.
+     * @return temp Das Kartendeck.
+     * @see <a href="https://www.baeldung.com/java-quicksort">Quicksort</a>
+     */
+    public Karte[] quickSort(int links, int rechts, boolean output) {
+        Karte[] temp = Kartendeck;
+        int i = links;
+        int j = rechts;
+        int pivot = (links + rechts) / 2;
+        while (i <= j) {
+            while (temp[i].gibFarbe().compareTo(temp[pivot].gibFarbe()) < 0) {
+                i++;
+            }
+            while (temp[j].gibFarbe().compareTo(temp[pivot].gibFarbe()) > 0) {
+                j--;
+            }
+            if (i <= j) {
+                Karte tempKarte = temp[i];
+                temp[i] = temp[j];
+                temp[j] = tempKarte;
+                i++;
+                j--;
+            }
+        }
+        if (links < j) {
+            quickSort(links, j, output);
+        }
+        if (i < rechts) {
+            quickSort(i, rechts, output);
+        }
+        if (output) {
+            kartenAusgeben(true);
+        }
+        return temp;
+    }
+
+
 
 
 }
