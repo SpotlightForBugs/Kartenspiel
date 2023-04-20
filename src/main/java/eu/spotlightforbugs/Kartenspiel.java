@@ -132,6 +132,23 @@ public class Kartenspiel {
     }
 
 
+    /**
+     * Sortiert das Kartendeck.
+     * @param output bestimmt, ob ein output in der Konsole erfolgen soll.
+     */
+    public void sortieren(boolean output) {
+        Kartendeck = quickSort(0, Kartendeck.length - 1, output);
+    }
+
+    /**
+     * Gibt das Kartendeck zurück.
+     * @return Kartendeck.
+     */
+    public Karte[] getKartendeck() {
+        return Kartendeck;
+    }
+
+
 
 
 }
