@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b145dda8-019b-4a50-86fc-49e5df51826b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Karte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Karte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Kartenspiel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/spotlightforbugs/Main.java" afterDir="false" />
     </list>
@@ -185,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681738594442</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Some small changes">
+      <created>1681986558887</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681986558887</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +216,8 @@
     <MESSAGE value="veränderte die .gitignore-Datei" />
     <MESSAGE value="veränderte die javadoc.yml-Datei" />
     <MESSAGE value="Added QuickSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added QuickSort" />
+    <MESSAGE value="Some small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some small changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

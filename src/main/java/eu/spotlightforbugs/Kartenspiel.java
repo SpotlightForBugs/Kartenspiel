@@ -150,5 +150,22 @@ public class Kartenspiel {
 
 
 
+    /**
+     * Gibt die Anzahl der Karten einer Farbe zurück.
+     * @param pFarbe Die Farbe, deren Anzahl an Karten zurückgegeben werden soll.
+     * @return anzahl Die Anzahl der Karten einer Farbe.
+     */
+
+    public int anzahlPerFarbe(String pFarbe) {
+        int anzahl = 0;
+        for (Karte karte : Kartendeck) {
+            if (karte.gibFarbe().equals(pFarbe)) {
+                anzahl++;
+            }
+        }
+        return anzahl;
+    }
+
+
 
 }
